@@ -19,5 +19,4 @@ version = "0.69.4"
 optional = true
 
 [features]
-default = ["generate_binding"]
 generate_binding = ["bindgen"]
