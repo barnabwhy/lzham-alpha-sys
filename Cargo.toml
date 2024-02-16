@@ -1,0 +1,23 @@
+[package]
+name = "lzham-alpha-sys"
+version = "0.1.0"
+readme = "README.md"
+edition = "2021"
+license = "MIT"
+description = "Low level FFI-bindings for the lzham alpha codec."
+keywords = ["lzham", "compression"]
+categories = ["api-bindings", "compression"]
+repository = "https://github.com/barnabwhy/lzham-alpha-sys"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+cmake = "0.1.50"
+
+[build-dependencies.bindgen]
+version = "0.69.4"
+optional = true
+
+[features]
+default = ["generate_binding"]
+generate_binding = ["bindgen"]
