@@ -25,4 +25,4 @@ The crate has the following three features:
 
 ## License
 
-lzham-alpha-sys is available under the MIT license. See [LICENSE](license) for more details.
+lzham-alpha-sys is available under the MIT license. See [LICENSE](LICENSE) for more details.
