@@ -18,8 +18,6 @@ lzham-alpha-sys = "0.1.0"
 The crate has the following three features:
 
 - `generate_bindings`: Generates the bindings again (uses [`bindgen`])
-- `static`: Links to the library statically
-- `dynamic`: Links to the library dynamically
 
 [lzham alpha]: https://github.com/richgel999/lzham_alpha
 [lzham]: https://github.com/richgel999/lzham_alpha
