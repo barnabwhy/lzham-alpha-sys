@@ -15,7 +15,7 @@ lzham-alpha-sys = "0.1.1"
 
 ## Features
 
-The crate has the following three features:
+The crate has the following features:
 
 - `generate_bindings`: Generates the bindings again (uses [`bindgen`])
 
